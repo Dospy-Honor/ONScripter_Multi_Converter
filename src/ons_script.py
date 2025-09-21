@@ -467,10 +467,8 @@ mov %multiconverteralias0,%0 :mov %multiconverteralias1,%1 :mov %multiconvertera
 mov %multiconverteralias5,%5 :mov %multiconverteralias6,%6 :mov %multiconverteralias7,%7 :mov %multiconverteralias8,%8 :mov %multiconverteralias9,%9 
 mov $multiconverteralias0,$10:mov $multiconverteralias1,$11:mov $multiconverteralias2,$12:mov $multiconverteralias3,$13:mov $multiconverteralias4,$14:mov $multiconverteralias5,$15
 getparam $13,%9:fileexist %0,$13+"/00000.jpg"
-fileexist %1,"_DISABLED_VIDEO"
-if %1==1 mov $13,$multiconverteralias3:mov %9,%multiconverteralias9:mov %1,%multiconverteralias1:saveon:return
-fileexist %1,$13+"/_DISABLED_VIDEO"
-if %1==1 mov $13,$multiconverteralias3:mov %9,%multiconverteralias9:mov %1,%multiconverteralias1:saveon:return
+fileexist %1,$13+"/_PLAY_VIDEO_KEY"
+if %1!=1 mov $13,$multiconverteralias3:mov %9,%multiconverteralias9:mov %1,%multiconverteralias1:saveon:return
 if %0==1 mov $14,".jpg"
 if %0!=1 mov $14,".png"
 mov $11,$13:add $11,"/":mov %6,5:mov $15,""

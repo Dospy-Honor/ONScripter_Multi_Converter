@@ -19,43 +19,6 @@ from process_notons import get_titledict
 from conversion import convert_start
 
 
-def ask_create_disabledvideofile():
-    with dpg.mutex():
-        with dpg.window(label=i18n.t('ui.label_numbered_video_disable'), modal=True) as msg_ask:
-            dpg.add_text(i18n.t('ui.Message_numbered_video_disable'))
-            with dpg.group(horizontal=True):
-                dpg.add_button(label='OK', user_data=(
-                    msg_ask, True), callback=create_disabledvideofile)
-                dpg.add_button(label='Cancel', user_data=(
-                    msg_ask, False), callback=create_disabledvideofile)
-    dpg.split_frame()
-    dpg.set_item_pos(msg_ask,
-                     [dpg.get_viewport_client_width() // 2 - dpg.get_item_width(msg_ask) // 2,
-                      dpg.get_viewport_client_height() // 2 - dpg.get_item_height(msg_ask) // 2])
-    return
-
-
-def create_disabledvideofile(sender, app_data, user_data):
-    dpg.configure_item(user_data[0], show=False)
-    if not user_data[1]:
-        return
-    root = tkinter.Tk()
-    root.withdraw()
-    _path = filedialog.askdirectory()
-    root.destroy()
-
-    if not _path:
-        return
-
-    _path = Path(_path)
-    with open(Path(_path / '_DISABLED_VIDEO'), 'wb') as s:
-        s.write(b'\xff')
-
-    message_box(i18n.t('ui.Completed'),
-                i18n.t('ui.Created_disabled_files'), 'info', True)
-    return
-
-
 def ask_decode_nscriptdat(sender, app_data, charset):
     with dpg.mutex():
         with dpg.window(label=i18n.t('ui.label_decoding_nscript_dat'), modal=True) as msg_ask:

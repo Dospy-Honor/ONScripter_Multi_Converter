@@ -23,6 +23,7 @@ from misc import (
     result_move,
     get_iconexepath,
     create_iconpng,
+    create_playvideokey,
 )
 from nsa_operations import compressed_nsa, extract_nsa
 from ons_script import onsscript_check, onsscript_decode
@@ -37,6 +38,9 @@ def convert_files(values: dict, values_ex: dict, cnvset_dict: dict, extracted_di
     # 連番かな
     isrenban = bool(values['vid_movfmt_radio'] ==
                     i18n.t('var.numbered_images'))
+    
+    # 連番動画利用時ビデオリスト
+    f_dict_video_list = []
 
     # 先にパスの代入&ディレクトリ作成
     for f_path_re, f_dict in cnvset_dict.items():
@@ -70,8 +74,7 @@ def convert_files(values: dict, values_ex: dict, cnvset_dict: dict, extracted_di
 
     # 連番動画利用時はその画像を並列圧縮
     if isrenban:
-        f_dict_video_list = []
-
+        
         for f_dict in cnvset_dict.values():
             if (f_dict['fileformat'] == 'video'):
                 f_dict_video_list.append(f_dict)
@@ -158,7 +161,7 @@ def convert_files(values: dict, values_ex: dict, cnvset_dict: dict, extracted_di
             allerrlog += er.read()
 
     values_ex['allerrlog'] = allerrlog
-    return values_ex
+    return values_ex, f_dict_video_list
 
 
 def convert_start(values):
@@ -318,7 +321,7 @@ def convert_start(values):
             # 変換本処理
             configure_progress_bar(0.05,
                                    i18n.t('ui.Progress_convert_extracted_data'), useGUI)
-            values_ex = convert_files(
+            values_ex, f_dict_video_list = convert_files(
                 values, values_ex, cnvset_dict, extracted_dir, converted_dir, useGUI)  # 進捗 0.05→0.95
 
             # 変換済ファイルをnsaに圧縮
@@ -338,6 +341,10 @@ def convert_start(values):
             # アイコンPNG作成
             if values['etc_getgameicon_chk']:
                 create_iconpng(values, values_ex, compressed_dir)
+
+            # 連番画像利用時動画再生キーファイル作成
+            if (f_dict_video_list):
+                create_playvideokey(converted_dir, compressed_dir, f_dict_video_list)
 
             # 0.txt書き出し
             configure_progress_bar(0.982,

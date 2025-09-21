@@ -173,6 +173,21 @@ def exepath2icon(exe_path: Path, icon_path: Path, error_skip: bool = False):
     return
 
 
+def create_playvideokey(converted_dir: Path, compressed_dir: Path, f_dict_video_list: list):
+
+    for f_dict in f_dict_video_list:
+        rel = (converted_dir / Path(f_dict['comp']) / Path('arc_'))
+        fc = (compressed_dir / Path(f_dict['convertedpath']).relative_to(rel))
+        result_keypath = Path(fc / Path('_PLAY_VIDEO_KEY'))
+
+        fc.mkdir(exist_ok=True, parents=True)
+        
+        with open(result_keypath, 'wb') as s:
+            s.write(b'\xff')
+
+    return
+
+
 def in_out_dir_check(values: dict):
     input_dir = values['input_dir']
     output_dir = values['output_dir']

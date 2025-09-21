@@ -80,7 +80,6 @@ en:
   label_hardware_selection: "Change Hardware"
   label_end: "Exit"
   label_tools: "Tools"
-  label_numbered_video_disable: "Create Sequential Video Disable File"
   label_decoding_nscript_dat: "Decrypt nscript.dat"
   label_open_garbro: "Launch GARbro"
   label_about: "About"

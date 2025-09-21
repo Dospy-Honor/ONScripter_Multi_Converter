@@ -8,7 +8,6 @@ from hardwarevalues_config import gethardwarevalues_full, gethardwarevalues
 from utils import value_setting_update, get_titlesettingfull, get_meipass
 from misc import get_uifontpath
 from ui_gui2 import (  # 最低限以外のui周りはui_gui2でやる
-    ask_create_disabledvideofile,
     ask_decode_nscriptdat,
     ask_convert_start,
     copyrights,
@@ -79,8 +78,6 @@ def gui_main(version: str, charset_param: str, hw_key: str, input_dir_param: str
                                   callback=close_dpg)
 
             with dpg.menu(label=i18n.t('ui.label_tools')):
-                dpg.add_menu_item(label=i18n.t('ui.label_numbered_video_disable'),
-                                  callback=ask_create_disabledvideofile)
                 dpg.add_menu_item(label=i18n.t('ui.label_decoding_nscript_dat'),
                                   user_data=(charset_param), callback=ask_decode_nscriptdat)
                 dpg.add_menu_item(label=i18n.t('ui.label_open_garbro'),
