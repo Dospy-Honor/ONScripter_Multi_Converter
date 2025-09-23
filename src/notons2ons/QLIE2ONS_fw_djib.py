@@ -579,70 +579,71 @@ bg "script/scenemode/image/scenebg.png",8
 lsp 200,":c;>800,600,#000000",0,0,128
 bgm "bgm/BGM15.ogg"
 mov %195,1
-lsp 100,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０１ａ",     0,  0
-lsp 101,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０１ｂ",     0, 25
-lsp 102,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０１ｃ",     0, 50
-lsp 103,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０２ａ",     0, 75
-lsp 104,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０２ｂ",     0,100
-lsp 105,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０２ｃ",     0,125
-lsp 106,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０３ａ",     0,150
-lsp 107,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０３ｂ",     0,175
-lsp 108,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０３ｃ",     0,200
-lsp 109,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０４ａ",     0,225
-lsp 110,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０４ｂ",     0,250
-lsp 111,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０４ｃ",     0,275
-lsp 112,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０５ａ",     0,300
-lsp 113,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０５ｂ",     0,325
-lsp 114,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０５ｃ",     0,350
-lsp 115,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０６ａ",     0,375
-lsp 116,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０６ｂ",     0,400
-lsp 117,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０６ｃ",     0,425
-lsp 118,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０７ａ",     0,450
-lsp 119,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０７ｂ",     0,475
-lsp 120,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０７ｃ",     0,500
-lsp 121,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０８ａ",     0,525
-lsp 122,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０８ｂ",     0,550
-lsp 123,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０８ｃ",     0,575
-lsp 124,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０９ａ",   250,  0
-lsp 125,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０９ｂ",   250, 25
-lsp 126,":s;#FFFFFF#AAAAAAＲｉｋＨ＿０９ｃ",   250, 50
-lsp 127,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１０ａ",   250, 75
-lsp 128,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１０ｂ",   250,100
-lsp 129,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１０ｃ",   250,125
-lsp 130,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１１ａ",   250,150
-lsp 131,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１１ｂ",   250,175
-lsp 132,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１１ｃ",   250,200
-lsp 133,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１２ａ",   250,225
-lsp 134,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１２ｂ",   250,250
-lsp 135,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１２ｃ",   250,275
-lsp 136,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１３ａ",   250,300
-lsp 137,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１３ｂ",   250,325
-lsp 138,":s;#FFFFFF#AAAAAAＲｉｋＨ＿１３ｃ",   250,350
-lsp 139,":s;#FFFFFF#AAAAAAｏｐ",               250,375
-lsp 140,":s;#FFFFFF#AAAAAAＢａｔ＿１＿０１",   250,400
-lsp 141,":s;#FFFFFF#AAAAAAＢａｔ＿１＿０２",   250,425
-lsp 142,":s;#FFFFFF#AAAAAAＢａｔ＿２＿０１",   250,450
-lsp 143,":s;#FFFFFF#AAAAAAＢａｔ＿２＿０２",   250,475
-lsp 144,":s;#FFFFFF#AAAAAAＢａｔ＿３＿０１",   250,500
-lsp 145,":s;#FFFFFF#AAAAAAＢａｔ＿３＿０２",   250,525
-lsp 146,":s;#FFFFFF#AAAAAAＢａｔ＿４＿０１",   250,550
-lsp 147,":s;#FFFFFF#AAAAAAＢａｔ＿４＿０２",   250,575
-lsp 148,":s;#FFFFFF#AAAAAAＲｉｋ＿５",         500,  0
-lsp 149,":s;#FFFFFF#AAAAAAＲｉｋ＿６",         500, 25
-lsp 150,":s;#FFFFFF#AAAAAAｈｅｎｓｈｉｎ",     500, 50
-lsp 151,":s;#FFFFFF#AAAAAAｌｏｖ＿４＿０１",   500, 75
-lsp 152,":s;#FFFFFF#AAAAAAｌｏｖ＿５＿０１",   500,100
-lsp 153,":s;#FFFFFF#AAAAAAｌｏｖ＿ｅｎｄ",     500,125
-lsp 154,":s;#FFFFFF#AAAAAAＭｅｉ＿１＿０１ｂ", 500,150
-lsp 155,":s;#FFFFFF#AAAAAAＭｅｉＨ＿１＿０１", 500,175
-lsp 156,":s;#FFFFFF#AAAAAAＭｅｉＨ＿２＿０１", 500,200
-lsp 157,":s;#FFFFFF#AAAAAAＭｅｉＨ＿２＿０２", 500,225
-lsp 158,":s;#FFFFFF#AAAAAAＭｅｉＨ＿３＿０１", 500,250
-lsp 159,":s;#FFFFFF#AAAAAAＭｅｉＨ＿３＿０２", 500,275
-lsp 160,":s;#FFFFFF#AAAAAAＭｅｉＨ＿４＿０１", 500,300
-lsp 161,":s;#FFFFFF#AAAAAAＭｅｉ＿５＿０３",   500,325
-lsp 162,":s;#FFFFFF#AAAAAAＭｅｉ＿５＿０７",   500,350
-lsp 163,":s;#FFFFFF#AAAAAAＭｅｉ＿５＿０７ｃ", 500,375
+lsp 100,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe6\x92\xab\xe6\x84\x9b'.decode('utf-8')[::-1])}",  0,  0
+lsp 101,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe6\x92\xab\xe6\x84\x9b'.decode('utf-8')[::-1])}",  0, 25
+lsp 102,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe6\x92\xab\xe6\x84\x9b'.decode('utf-8')[::-1])}",  0, 50
+lsp 103,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x83\xa9\xe3\x82\xa7\xe3\x83\x95'.decode('utf-8')[::-1])}",  0, 75
+lsp 104,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x83\xa9\xe3\x82\xa7\xe3\x83\x95'.decode('utf-8')[::-1])}",  0,100
+lsp 105,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x83\xa9\xe3\x82\xa7\xe3\x83\x95'.decode('utf-8')[::-1])}",  0,125
+lsp 106,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe4\xbd\x8d\xe5\xb8\xb8\xe6\xad\xa3'.decode('utf-8')[::-1])}",  0,150
+lsp 107,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe4\xbd\x8d\xe5\xb8\xb8\xe6\xad\xa3'.decode('utf-8')[::-1])}",  0,175
+lsp 108,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe4\xbd\x8d\xe5\xb8\xb8\xe6\xad\xa3'.decode('utf-8')[::-1])}",  0,200
+lsp 109,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x83\xaa\xe3\x82\xba\xe3\x82\xa4\xe3\x83\x91'.decode('utf-8')[::-1])}",  0,225
+lsp 110,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x83\xaa\xe3\x82\xba\xe3\x82\xa4\xe3\x83\x91'.decode('utf-8')[::-1])}",  0,250
+lsp 111,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x83\xaa\xe3\x82\xba\xe3\x82\xa4\xe3\x83\x91'.decode('utf-8')[::-1])}",  0,275
+lsp 112,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x82\xad\xe3\x82\xb3\xe8\xb6\xb3'.decode('utf-8')[::-1])}",  0,300
+lsp 113,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x82\xad\xe3\x82\xb3\xe8\xb6\xb3'.decode('utf-8')[::-1])}",  0,325
+lsp 114,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x82\xad\xe3\x82\xb3\xe8\xb6\xb3'.decode('utf-8')[::-1])}",  0,350
+lsp 115,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x83\xac\xe3\x83\x97\xe3\x82\xb9\xe3\x82\xb3'.decode('utf-8')[::-1])}",  0,375
+lsp 116,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x83\xac\xe3\x83\x97\xe3\x82\xb9\xe3\x82\xb3'.decode('utf-8')[::-1])}",  0,400
+lsp 117,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x83\xac\xe3\x83\x97\xe3\x82\xb9\xe3\x82\xb3'.decode('utf-8')[::-1])}",  0,425
+lsp 118,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x82\xa4\xe3\x83\xac\xe3\x83\x97\xe5\x91\x82\xe9\xa2\xa8'.decode('utf-8')[::-1])}",  0,450
+lsp 119,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x82\xa4\xe3\x83\xac\xe3\x83\x97\xe5\x91\x82\xe9\xa2\xa8'.decode('utf-8')[::-1])}",  0,475
+lsp 120,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x82\xa4\xe3\x83\xac\xe3\x83\x97\xe5\x91\x82\xe9\xa2\xa8'.decode('utf-8')[::-1])}",  0,500
+lsp 121,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xef\xbc\xb0\xef\xbc\x93'.decode('utf-8')[::-1])}",  0,525
+lsp 122,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xef\xbc\xb0\xef\xbc\x93'.decode('utf-8')[::-1])}",  0,550
+lsp 123,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xef\xbc\xb0\xef\xbc\x93'.decode('utf-8')[::-1])}",  0,575
+lsp 124,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x83\xab\xe3\x83\x8a\xe3\x82\xa2'.decode('utf-8')[::-1])}",250,  0
+lsp 125,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x83\xab\xe3\x83\x8a\xe3\x82\xa2'.decode('utf-8')[::-1])}",250, 25
+lsp 126,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x83\xab\xe3\x83\x8a\xe3\x82\xa2'.decode('utf-8')[::-1])}",250, 50
+lsp 127,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe5\x87\xba\xe9\x9c\xb2'.decode('utf-8')[::-1])}",250, 75
+lsp 128,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe5\x87\xba\xe9\x9c\xb2'.decode('utf-8')[::-1])}",250,100
+lsp 129,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe5\x87\xba\xe9\x9c\xb2'.decode('utf-8')[::-1])}",250,125
+lsp 130,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe5\xa7\xa6\xe9\x9d\x92'.decode('utf-8')[::-1])}",250,150
+lsp 131,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe5\xa7\xa6\xe9\x9d\x92'.decode('utf-8')[::-1])}",250,175
+lsp 132,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe5\xa7\xa6\xe9\x9d\x92'.decode('utf-8')[::-1])}",250,200
+lsp 133,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xe3\x83\xbc\xe3\x83\x8b\xe3\x83\x8a\xe3\x82\xaa\xe5\x88\xb6\xe5\xbc\xb7'.decode('utf-8')[::-1])}",250,225
+lsp 134,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xe3\x83\xbc\xe3\x83\x8b\xe3\x83\x8a\xe3\x82\xaa\xe5\x88\xb6\xe5\xbc\xb7'.decode('utf-8')[::-1])}",250,250
+lsp 135,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xe3\x83\xbc\xe3\x83\x8b\xe3\x83\x8a\xe3\x82\xaa\xe5\x88\xb6\xe5\xbc\xb7'.decode('utf-8')[::-1])}",250,275
+lsp 136,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xae\xef\xbc\x9a\xef\xbc\xad\xef\xbc\xb3'.decode('utf-8')[::-1])}",250,300
+lsp 137,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\x9a\xef\xbc\xad\xef\xbc\xb3'.decode('utf-8')[::-1])}",250,325
+lsp 138,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xef\xbc\xb3\xef\xbc\x9a\xef\xbc\xad\xef\xbc\xb3'.decode('utf-8')[::-1])}",250,350
+lsp 139,":s;#FFFFFF#AAAAAA{str(b'\xe3\x83\x81\xe3\x83\x83\xe3\x82\xa8\xe5\x88\x9d\xe3\x81\xae\xe3\x81\x84\xe6\x83\x91\xe6\x88\xb8'.decode('utf-8')[::-1])}",250,375
+lsp 140,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x91\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe4\xb8\xad\xe8\xa1\x97'.decode('utf-8')[::-1])}",250,400
+lsp 141,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x92\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe4\xb8\xad\xe8\xa1\x97'.decode('utf-8')[::-1])}",250,425
+lsp 142,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x91\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe4\xb9\xb3\xe5\xb7\xa8'.decode('utf-8')[::-1])}",250,450
+lsp 143,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x92\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe4\xb9\xb3\xe5\xb7\xa8'.decode('utf-8')[::-1])}",250,475
+lsp 144,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x91\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe9\xa4\xa8\xe7\x94\xbb\xe6\x98\xa0'.decode('utf-8')[::-1])}",250,500
+lsp 145,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x92\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe9\xa4\xa8\xe7\x94\xbb\xe6\x98\xa0'.decode('utf-8')[::-1])}",250,525
+lsp 146,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x91\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe5\x9c\x92\xe5\x85\xac'.decode('utf-8')[::-1])}",250,550
+lsp 147,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x92\xe8\xbe\xb1\xe9\x99\xb5\xe3\x81\xa7\xe5\x9c\x92\xe5\x85\xac'.decode('utf-8')[::-1])}",250,575
+lsp 148,":s;#FFFFFF#AAAAAA{str(b'\xe5\xa8\x81\xe8\x84\x85\xe3\x81\xae\xe8\xbb\x8d\xe5\xb0\x86\xe7\x95\x8c\xe9\xad\x94'.decode('utf-8')[::-1])}",500,  0
+lsp 149,":s;#FFFFFF#AAAAAA{str(b'\xe3\x81\xa6\xe3\x82\x81\xe7\xa7\x98\xe3\x82\x92\xe6\x84\x8f\xe6\xb1\xba'.decode('utf-8')[::-1])}",500, 25
+lsp 150,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\x81\xe3\x83\xab\xe3\x83\xbc\xe3\x83\xaa\xe3\x83\x96\xe3\x82\xb8\xef\xbc\x81\xe8\xba\xab\xe5\xa4\x89'.decode('utf-8')[::-1])}",500, 50
+lsp 151,":s;#FFFFFF#AAAAAA{str(b'\xe5\xb0\xbe\xe4\xba\xa4\xe3\x81\xae\xe3\x81\xa6\xe3\x82\x81\xe5\x88\x9d'.decode('utf-8')[::-1])}",500, 75
+lsp 152,":s;#FFFFFF#AAAAAA{str(b'\xe4\xba\xba\xe6\x81\x8b\xe3\x81\xae\xe5\x8f\xa3\xe3\x81\x8a'.decode('utf-8')[::-1])}",500,100
+lsp 153,":s;#FFFFFF#AAAAAA{str(b'\xe5\xa4\x9c\xe3\x81\xae\xe5\xbe\x8c\xe6\x9c\x80\xe3\x80\x81\xe7\x99\xbd\xe5\x91\x8a'.decode('utf-8')[::-1])}",500,125
+lsp 154,":s;#FFFFFF#AAAAAA{str(b'\xe5\xa4\xb1\xe5\x96\xaa\xe5\xa5\xb3\xe5\x87\xa6\xe3\x81\xa7\xe6\xa0\xb9\xe5\xa4\xa7'.decode('utf-8')[::-1])}",500,150
+lsp 155,":s;#FFFFFF#AAAAAA{str(b'\xe3\x81\x97\xe3\x82\x89\xe3\x82\x82\xe3\x81\x8a\xe3\x81\xa7\xe7\xae\xb1\xe3\x81\xb3\xe8\xb7\xb3'.decode('utf-8')[::-1])}",500,175
+lsp 156,":s;#FFFFFF#AAAAAA{str(b'\xe3\x82\xb0\xe3\x83\xb3\xe3\x83\xaa\xe3\x82\xaf\xe3\x82\xa4\xe3\x82\xb5\xe3\x81\xa8\xe6\x89\x8b\xe8\xa7\xa6'.decode('utf-8')[::-1])}",500,200
+lsp 157,":s;#FFFFFF#AAAAAA{str(b'\xe3\x83\x96\xe3\x82\xa4\xe3\x83\x90\xe3\x81\xa7\xe3\x83\x88\xe3\x82\xa4\xe3\x83\x90'.decode('utf-8')[::-1])}",500,225
+lsp 158,":s;#FFFFFF#AAAAAA{str(b'\xe8\xa8\x93\xe7\x89\xb9\xe3\x81\xa7\xe3\x83\xab\xe3\x83\x99\xe3\x83\xbc\xe3\x83\x90'.decode('utf-8')[::-1])}",500,250
+lsp 159,":s;#FFFFFF#AAAAAA{str(b'\xe6\x9d\xbf\xe3\x83\x88\xe3\x83\xbc\xe3\x83\x93\xe3\x81\xa8\xe6\xb0\xb4\xe3\x82\xaf\xe3\x82\xb9'.decode('utf-8')[::-1])}",500,275
+lsp 160,":s;#FFFFFF#AAAAAA{str(b'\xe4\xba\xa4\xe4\xb9\xb1\xe3\x81\xa7\xe9\xa4\xa8\xe7\x94\xbb\xe6\x98\xa0'.decode('utf-8')[::-1])}",500,300
+lsp 161,":s;#FFFFFF#AAAAAA{str(b'\xe8\xbe\xb1\xe9\x99\xb5\xe3\x82\xa4\xe3\x83\xa1\xe3\x82\xa3\xe3\x83\x86\xe3\x82\xb9\xe3\x83\x9f'.decode('utf-8')[::-1])}",500,325
+lsp 162,":s;#FFFFFF#AAAAAA{str(b'\xef\xbc\xa8\xe3\x82\x8b\xe3\x81\x82\xe6\x84\x9b\xe3\x81\xae\xe3\x81\xa6\xe3\x82\x81\xe5\x88\x9d'.decode('utf-8')[::-1])}",500,350
+lsp 163,":s;#FFFFFF#AAAAAA{str(b'\xe5\xae\xb4\xe3\x82\x8b\xe3\x81\xaa\xe8\x89\xb6\xe5\xa6\x96'.decode('utf-8')[::-1])}",500,375
+
 
 ;めんどくなったので
 lsp 164,":s;#FFFFFF☆☆☆☆☆☆☆☆☆☆", 525,425
