@@ -104,7 +104,8 @@
  [详细内容在这里有写](./README_setting.md)<br>
 ~~如果你不确定，我认为你可以直接更换成合适的硬件，只指定input/output，然后按Convert~~
 启动GBK支持，需要在命令行启动应用，命令为
-```ONScripter_Multi_Converter.exe -lang en -chrs gbk
+```
+   ONScripter_Multi_Converter.exe -lang en -chrs gbk
 ```
 
 ### 使用设置(CLI)
